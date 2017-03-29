@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
     aaptOptions{
         cruncherEnabled = false
-        useNewCruncher = false
+        useNewCruncher = true
     }
 
     applicationVariants.all { variant ->
